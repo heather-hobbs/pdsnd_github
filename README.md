@@ -3,7 +3,7 @@
 * README file created: 21 Apr 2021
 
 ### Project Title
-####U.S. Bikeshare Data
+U.S. Bikeshare Data
 
 ### Description
 This project calculates descriptive statistics on bikeshare data from Chicago, Washington D.C., and New York City. The user can choose and filter the dataset during analysis.
