@@ -1,17 +1,25 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+Project created: 04 Apr 2021
+README file created: 21 Apr 2021
 
 ### Project Title
-Replace the Project Title
+U.S. Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project calculates descriptive statistics on bikeshare data from Chicago, Washington D.C., and New York City. The user can choose and filter the dataset during analysis.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+* Pandas documentation for datetime, divmod, to_string
+* NumPy documentation for where and loc
+* w3schools divmod documentation
+* stack overflow for combining two columns in pandas
+* Python documentation for f strings
+* Udacity's problem set for the bikeshare project
