@@ -217,10 +217,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Credit: Pandas Documentation for datetime, divmod, to_string
-# Credit: NumPy documentation for where and loc
-# Credit: w3schools documentation for divmod
-# Credit: stack overflowfor combining two columns in pandas
-# Credit: Python documentation for f strings
-# Credit: Udacity's three question problem set for this project
