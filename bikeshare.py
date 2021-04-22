@@ -1,7 +1,6 @@
 import time
 import pandas as pd
 import numpy as np
-import calendar
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -60,7 +59,7 @@ def load_data(city, month, day):
         df - Pandas DataFrame containing city data filtered by month and day
     """
     # load data file into a dataframe
-    print('We are loading data for {}, {}, and {}.'.format(city, month, day))
+    print(f"We are loading data for {city}, {month}, and {day}.")
     df = pd.read_csv(CITY_DATA[city])
     display_data(df)
 
@@ -217,10 +216,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# Credit: Pandas Documentation for datetime, divmod, to_string
-# Credit: NumPy documentation for where and loc
-# Credit: w3schools documentation for divmod
-# Credit: stack overflowfor combining two columns in pandas
-# Credit: Python documentation for f strings
-# Credit: Udacity's three question problem set for this project
